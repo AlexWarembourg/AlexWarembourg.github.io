@@ -2,9 +2,9 @@
 title: Alexandre Warembourg
 email: alexandrewarembourg59810@gmail.com
 url: https://github.com/AlexWarembourg
-description: "Je vous accompagne dans l'amélioration de vos prévision, la détermination de votre demande potentiel par la détection des ruptures et l'optimisation de vos prix !"
-keywords: "Data Science, Machine Learning, Prévision, Recherche Opérationelle, Deep learning, Optimisation, Demand Forecasting, Détection de rupture"
-skills: "Senior Data Scientist - Enseignant/Formateur - Forecasting Expert - Créateur de contenu"
+description: "Visez l'excellence, grâce à des prévisions de qualités et des processus opérationelles optimisés par le biais d'algorithme performant et adaptés à vos besoins"
+keywords: "Data Science, Machine Learning, Prévision, Recherche Opérationelle, Deep learning, Optimisation, Recherche Operationelle, Demand Forecasting, Détection de rupture"
+skills: Data Scientist - Expert en prévision - Enseignant/Formateur"
 meta_author: Warembourg Alexandre
 
 # Google webmaster tools
@@ -32,7 +32,6 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
   location: Localisation
   social: Sur le Web
 
@@ -42,13 +41,12 @@ social:
     url: https://www.linkedin.com/in/alexandre-warembourg-8b1bb1133/
   - title: github
     url: https://github.com/AlexWarembourg
+  - title: medium
+    url: https://medium.com/@AlexandreWarembourg
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Haut de France, France
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

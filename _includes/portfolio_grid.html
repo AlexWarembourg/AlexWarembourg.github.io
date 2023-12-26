@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vos Services</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #eeeeee; /* or any background color you prefer */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px; /* Adjust the gap between cards */
+  }
+  .service-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 280px; /* Adjust width as needed */
+  }
+  .service-card img {
+    width: 50px; /* Adjust icon size as needed */
+    height: auto;
+  }
+  .service-title {
+    font-size: 18px;
+    color: #333333; /* Adjust text color as needed */
+    margin-top: 10px;
+  }
+  .service-description {
+    font-size: 14px;
+    color: #666666; /* Adjust text color as needed */
+    margin: 10px 0;
+  }
+  .benefit-list {
+    list-style: none;
+    padding: 0;
+  }
+  .benefit-list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .benefit-list li::before {
+    content: '✓';
+    color: #4caf50; /* Adjust checkmark color as needed */
+    margin-right: 5px;
+  }
+  .learn-more-btn {
+    background-color: #e91e63; /* Adjust button color as needed */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .learn-more-btn:hover {
+    background-color: #c2185b; /* Adjust button hover color as needed */
+  }
+</style>
+</head>
+<body>
+
+<section id="portfolio">
+
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2>Portfolio</h2>
+    <hr class="star-primary">
+  </div>
+</div>
+
+<div class="services-section">
+  <!-- Card 1: Forecasting Models -->
+  <div class="service-card">
+    <img src="img/fcst_img.png" alt="Forecasting Icon">
+    <h2 class="service-title">MODÈLES DE PRÉVISION</h2>
+    <p class="service-description">Exploitez la puissance des modèles de machine learning de pointe pour prévoir votre demande.</p>
+    <ul class="benefit-list">
+      <li>Prévoir la demande avec précision</li>
+      <li>Modèles uniques et adaptés à vos besoins</li>
+    </ul>
+    <a href="#" class="learn-more-btn">En savoir plus</a>
+  </div>
+  
+  <!-- Card 2: Demand Estimation -->
+  <div class="service-card">
+    <img src="path_to_your_icon.png" alt="Estimation Icon">
+    <h2 class="service-title">OPTIMISATION ECONOMIQUE</h2>
+    <p class="service-description">J'optimise votre offre, vos prix, vos stocks ou tout autres processus grâce à des algorithmes d'optimisation sous-contraintes</p>
+    <ul class="benefit-list">
+      <li>Recherches operationnelles</li>
+      <li>Boosté par le machine learning & l'inférence causal</li>
+      <li>Intégration des contraintes et des objectifs sous-jacents aux besoins</li>
+    </ul>
+    <a href="#" class="learn-more-btn">En savoir plus</a>
+  </div>
+  
+  <!-- Card 3: Breakage Correction -->
+  <div class="service-card">
+    <img src="path_to_your_icon.png" alt="Correction Icon">
+    <h2 class="service-title">CORRIGER LES RUPTURES</h2>
+    <p class="service-description">Je met en place des modèles de detection d'anomalie afin de détecter vos ruptures et estimer la demande potentielle.</p>
+    <ul class="benefit-list">
+      <li>Gestion proactive des stocks</li>
+      <li>Réduction des pertes</li>
+      <li>Amélioration de la satisfaction client</li>
+    </ul>
+    <a href="#" class="learn-more-btn">En savoir plus</a>
+  </div>
+  
+  <!-- Add more cards as needed -->
+</div>
+</section>
+
+</body>
+</html>
