@@ -132,6 +132,56 @@ title: Demand Forecasting with Machine Learning Models
             text-align: center;
             padding: 30px 0;
         }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .content .page-content,
+            .content .sidebar {
+                width: 100%;
+                float: none;
+            }
+
+            header nav ul,
+            header nav ul li {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        /* Média queries pour les écrans de smartphones */
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+            }
+
+            header {
+                padding-top: 15px;
+            }
+
+            header nav ul {
+                padding: 0;
+            }
+
+            header nav ul li {
+                margin-bottom: 5px;
+            }
+
+            .content .sidebar {
+                padding: 5px;
+            }
+
+            .content .sidebar .search {
+                margin-bottom: 10px;
+            }
+
+            .content .page-content {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 
