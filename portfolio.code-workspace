@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "portfolio",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../../Downloads/arnaud-dg.github.io-main/assets"
+		}
+	],
+	"settings": {}
+}
