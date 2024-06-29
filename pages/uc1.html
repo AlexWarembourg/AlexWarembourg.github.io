@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> <span>Etude de Cas : Auchan Retail Ukraine </span></title>
+    <title>Etude de Cas : Auchan Retail Ukraine</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff; /* White background for the page */
         }
         .header {
             background-color: #f1f1f1; /* Meringue color */
@@ -75,6 +75,7 @@
         .details {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
         .details div {
             flex: 1;
@@ -90,11 +91,53 @@
             padding: 10px 0;
             margin-top: 20px;
         }
+        .subscribe-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+        .subscribe-section img {
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        .subscribe-section h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .subscribe-section p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #666;
+        }
+        .subscribe-section input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .subscribe-section button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscribe-section button:hover {
+            background-color: #0056b3;
+        }
+        .privacy-policy {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <a href="#" class="back-button">Home</a>
+        <a href="#" class="back-button">Accueil</a>
         <h1>Etude de Cas : Auchan Retail Ukraine</h1>
     </div>
     <div class="content">
@@ -140,14 +183,25 @@ L'équipe a rapidement adopté la solution, qui a été livrée avec un niveau d
                     Déployée en 2020, la solution a permis des gains significatifs :
                     - **Réduction des surstocks de 18%** : Grâce à une meilleure précision des prévisions.- **Gain de temps de 30 000$/an** : En automatisant les prévisions et en optimisant la gestion des innovations.- **Amélioration de la satisfaction client** : Les clients ont été impressionnés par la qualité des prévisions, en particulier pour les nouveaux produits, et ont ressenti un allègement de la charge de travail conséquente.
                     Les résultats démontrent que la solution a non seulement amélioré l'efficacité opérationnelle mais a aussi contribué à des gains financiers substantiels et à une meilleure satisfaction des équipes et des clients.
-                                </p>
+                </p>
             </div>
         </div>
         <div class="image-container">
             <img src="images/GitHub-logo.png" alt="Blendwell Food Group">
         </div>
     </div>
+    <div class="subscribe-section">
+        <img src="images/email-icon.png" alt="Icône Email">
+        <h2>Restez en contact.</h2>
+        <p>Abonnez-vous à notre newsletter mensuelle.</p>
+        <form>
+            <input type="email" placeholder="Votre email professionnel" required>
+            <button type="submit">S'abonner</button>
+        </form>
+        <p class="privacy-policy">Se désabonner à tout moment. Vos données sont stockées à des fins de communication business-to-business. Consultez notre <a href="#">politique de confidentialité</a>.</p>
+    </div>
     <div class="footer">
+        <p>&copy; 2024 Auchan Retail Ukraine</p>
     </div>
 </body>
 </html>
