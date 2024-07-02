@@ -1,5 +1,5 @@
 // Initialisation des mots
-var words = ["Data Scientist", "Expert en Prévision", "Certifié Google Machine Learning Engineer", "Enseignant/Formateur"];
+var words = ["Fondateur de Kairos AI", "Data Scientist", "Expert en Prévision", "Certifié Google Machine Learning Engineer", "Enseignant/Formateur"];
 var i = 0;
 var typingSpeed = 100; // Vitesse de frappe
 var deletingSpeed = typingSpeed / 3; // Vitesse d'effacement, 3 fois plus rapide

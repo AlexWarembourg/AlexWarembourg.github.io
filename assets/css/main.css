@@ -2496,12 +2496,12 @@ input, select, textarea {
 	}
 
 	#dynamic-text {
-		color: #E91E63; /* La couleur de votre choix pour le texte dynamique */
+		color: #3c7aa3; /* La couleur de votre choix pour le texte dynamique */
 		font-weight: bold;
 	  }
 
 	.gradient-text {
-		background-image: linear-gradient(90deg, #18BEE9, #C96FE1, #F45161); /* Gradient de couleur */
+		background-image: linear-gradient(90deg, #18BEE9, #509fa1, #312a8f); /* Gradient de couleur */
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent; /* Nécessaire pour certains navigateurs */
@@ -2528,7 +2528,7 @@ input, select, textarea {
 	}
 
 	.half-width-image {
-		width: 50%;
+		width: 30%;
 		height: auto;
 	}
 
