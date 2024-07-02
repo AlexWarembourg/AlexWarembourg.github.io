@@ -2528,8 +2528,8 @@ input, select, textarea {
 	}
 
 	.half-width-image {
-		width: 30%;
-		height: auto;
+		width: 50%;
+		height: 50%;
 	}
 
 	.key-figure {
