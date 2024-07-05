@@ -2561,17 +2561,17 @@ input, select, textarea {
 .info-card {
   background: #fafafa;
   border: 1px solid #ddd; /* Bordure subtile */
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   text-align: center;
   width: 30%; /* Ajuster la largeur au besoin */
-  margin: 15px; /* Espacement autour des cartes */
+  margin: 20px; /* Espacement autour des cartes */
   padding: 55px 5px 10px 5px; /* Padding à l'intérieur des cartes */
   display: flex; /* Utilisation de flexbox */
   flex-direction: column; /* Les éléments s'organisent en colonne */
   justify-content: center; /* Centre verticalement */
   align-items: center; /* Centre horizontalement */
-  height: 150px; /* Ajuster en fonction du contenu */
+  height: 170px; /* Ajuster en fonction du contenu */
   transition: transform 0.3s ease;
 }
 
